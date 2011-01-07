@@ -111,11 +111,39 @@ div.colborder {
 	float:none;
 }
 
-.container p, .container li{
+
+.container p, .container li, .container table.patternThumbs{
 	text-align:left;
-	width:500px;
-	margin: 1em auto !important;
+	width:520px;
+	margin: 1.5em auto !important;
 }
+
+.footer{
+	width:520px;
+	margin: 5em auto !important;
+	padding: 1em 0;
+	border-top:1px solid #CCC;
+}
+
+.footer div{
+	margin:0 10px !important;
+	float:left;
+}
+
+.container table.patternThumbs td{
+	text-align: center;
+}
+
+
+
+#wiki10{
+	opacity: .33;
+}
+
+#wiki10:hover{
+	opacity: .66;
+}
+
 /* Body margin for a sensible default look. */
 html, body {
 	width:100%;
@@ -129,7 +157,7 @@ html, body {
 
 /* General styling */
 
-h1, h2, h3, h4, h5, h6 {text-shadow: 1px 1px 0px #FFF;}
+h1, h2, h3, h4, h5, h6 {text-shadow: 1px 1px 0px #FFF; clear:both;}
 
 p.citation {
 	background-color:#FFF;
@@ -178,7 +206,7 @@ a.img {
 		width after the growing animation finishes
 		height is automatically calculated
 	*/
-	width:700px;
+	width:800px;
 	text-align:center;
 	
 	/* some padding to layout nested elements nicely  */
