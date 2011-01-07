@@ -137,6 +137,11 @@ p.citation {
 	font-size: 95%;
 }
 
+img#wiki10{
+	position: absolute;
+	float: left;
+	left: 2em;
+}
 
 /* Default link styling */
 
