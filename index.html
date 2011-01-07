@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 	<head>
 		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-		<title>Notabilia ~ Visualizing Article for Deletion Discussions on Wikipedia</title>
+		<title>Notabilia ~ Visualizing Deletion Discussions on Wikipedia</title>
 
 		<!-- Framework CSS -->
 	    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
@@ -44,23 +44,45 @@
 		<div class="container">		
 			<a class="img" href="http://ten.wikipedia.org" title="Happy 10th birthday, Wikipedia!"><img id="wiki10" src="img/wikipedia10.png" alt="Wikipedia 10th anniversary logo" /></a>
 			<div class="titlewrap">
-				<h1 style="margin:0;"><span style="font-size: .6em; margin-bottom: 2px; margin-right: 4px"></span>Notabilia<span style="font-size: .6em; margin-bottom: 2px; margin-left: 4px"></span></h1>
-				<h2 style="font-size:1.4em; margin:.5em;">Visualizing Article for Deletion Discussions on Wikipedia</h2>	
+				<h1 style="margin:0;">Notabilia</h1>
+				<h2 style="font-size:1.4em; margin:.5em;">Visualizing Deletion Discussions on Wikipedia</h2>	
 				<h3 style="font-size:1.1em; color:#888;font-weight:normal">Moritz Stefaner &bull; Dario Taraborelli &bull; Giovanni Luca Ciampaglia</h3>
 			</div>
 			<p>
 				<a href="http://wikipedia.org" target="_blank">Wikipedia</a> is an open encyclopedia that anyone can edit. Like a garden, a curated encyclopedia makes some weeding necessary. All articles, especially new ones, are closely reviewed by the community to determine if they meet Wikipedia's <a href="http://en.wikipedia.org/wiki/Wikipedia:Notability" target="_blank">notability criteria</a>. Any editor can nominate an article for deletion and, if this nomination is legitimate, a community discussion takes place where any fellow <strike>gardeners</strike> editors have the opportunity to make their voices heard. The usual process is to have a week-long discussion during which community members can discuss in favor or against keeping the article, at the end of which an administrator speaks the final verdict (depending on whether consensus has been reached or not). If the admin concludes that consensus has not been reached, Wikipedia's policies recommend that the article be kept. 
 			</p>
 			<p>
-				We analyzed and visualized <a href="http://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion" target="_blank">Article for Deletion (AfD)</a> discussions. The visualization above represents the 100 longest discussions that resulted in the deletion of the respective article. AfD discussions are represented by a thread starting at the bottom center. Each time a user recommends to <em>keep</em>, <em>merge</em>, or <em>redirect</em> the article a green segment leaning towards the left is added. Each time a user recommends to <em>delete</em> the article a red segment leaning towards the right is added. As the discussion progresses, the length of the segments as well as the angle slowly decay. An ideal discussion in which there is total agreement among participants would approximately look like a <a href="http://en.wikipedia.org/wiki/Logarithmic_spiral">logarithmic spiral</a>, as in <a class="trigger img" rel="#afd_spiral" title="spiral-like AfD sample">this case</a>.
+				We analyzed and visualized <a href="http://en.wikipedia.org/wiki/Wikipedia:Articles_for_deletion" target="_blank">Article for Deletion (AfD)</a> discussions. The visualization above represents the 100 longest discussions that resulted in the deletion of the respective article. AfD discussions are represented by a thread starting at the bottom center. Each time a user recommends to <em>keep</em>, <em>merge</em>, or <em>redirect</em> the article a green segment leaning towards the left is added. Each time a user recommends to <em>delete</em> the article a red segment leaning towards the right is added. As the discussion progresses, the length of the segments as well as the angle slowly decay. 
+				
+				<!--An ideal discussion in which there is total agreement among participants would approximately look like a <a href="http://en.wikipedia.org/wiki/Logarithmic_spiral">logarithmic spiral</a>, as in <a class="trigger img" rel="#afd_spiral" title="spiral-like AfD sample">this case</a>.
+				-->
 			</p>
-			<h2>AfD patterns</h2>
-			<h3>Controversial discussions</h3>
-			<a class="trigger img" rel="#afd_straight" title="straight AfD sample"><img style="border: 2px solid #CCC" src="img/AfDd.png" alt="AfD sample"/></a>
-			<h3>Unanimous discussions</h3>
-			<a class="trigger img" rel="#afd_spiral" title="spiral-like AfD sample"><img style="border: 2px solid #CCC" src="img/AfDb.png" alt="AfD sample"/></a>
-			<h3>Overturned discussions</h3>
-			<a class="trigger img" rel="#afd_overturn" title="s-shaped AfD sample"><img style="border: 2px solid #CCC" src="img/AfDa.png" alt="AfD sample"/></a>
+			<h3>Typical patterns</h3>
+			<table class="patternThumbs" cellpadding="10">
+				<tr>
+					<td>
+						<a class="trigger img" rel="#afd_straight" title="straight AfD sample">
+						<img src="img/thumb_ginger.gif" alt="straight AfD sample" width="159" height="160" />
+						<br />
+						Controversial
+						</a>
+					</td>
+					<td>
+						<a class="trigger img" rel="#afd_spiral" title="spiral-like AfD sample">
+						<img src="img/thumb_spaghetti.gif" alt="spiral-like AfD sample" width="160" height="160" />
+						<br />
+						Unanimous
+						</a>
+					</td>
+					<td>
+						<a class="trigger img" rel="#afd_overturn" title="s-shaped AfD sample">
+						<img class="last" src="img/thumb_transreal.gif" alt="s-shaped AfD sample" width="160" height="160" />
+						<br />
+						Overturned
+						</a>
+					</td>
+				</tr>	
+			</table>
 			<p>
 				The following visualization represents the 100 longest discussions that did <em>not</em> result in the deletion of the article (i.e the article was kept, merged or redirected):
 			</p>
@@ -102,34 +124,51 @@
 			<div><center><img height=250 src="img/duration_hist.png" /><img height=250 src="img/activity_hist.png" /></center></div>
 
 			<div class="container">			
-				<h2>About</h2>
-				<p>
-				This project is the result of a collaboration between <a href="http://nitens.org/taraborelli">Dario Taraborelli</a>, <a href="http://www.inf.usi.ch/phd/ciampaglia/">Giovanni Luca Ciampaglia</a> (data and analysis) and <a href="http://moritz.stefaner.eu/">Moritz Stefaner</a> (visualization).
-				<br />The interactive visualizations were built with <a href="http://www.adobe.com/products/flash/whatisflash/" target="_blank">Flash</a>, <a href="http://flare.prefuse.org" target="_blank">Flare</a> and <a href="http://www.fdt.powerflasher.com/" target="_blank">FDT</a>. The static charts were produced with <a href="http://www.tableausoftware.com/" target="_blank">Tableau.</a>
-				</p>
 				<p id="ref">Further analyses of Wikipedia's AfD discussions can be found in:<br/>
 					<p class="citation">
 					D. Taraborelli, G.L. Ciampaglia (2010) Beyond Notability. Collective Deliberation on Content Inclusion in Wikipedia. <em>Fourth IEEE International Conference on Self-Adaptive and Self-Organizing Systems Workshops</em> (SASOW '10). <a href="http://nitens.org/docs/qteso10.pdf">[PDF]</a>
 					</p>
 				</p>
+				<p>&nbsp;</p>
+				<p>
+				This project is the result of a collaboration between <a href="http://nitens.org/taraborelli">Dario Taraborelli</a>, <a href="http://www.inf.usi.ch/phd/ciampaglia/">Giovanni Luca Ciampaglia</a> (data and analysis) and <a href="http://moritz.stefaner.eu/">Moritz Stefaner</a> (visualization).
+				<br />The interactive visualizations were built with <a href="http://www.adobe.com/products/flash/whatisflash/" target="_blank">Flash</a>, <a href="http://flare.prefuse.org" target="_blank">Flare</a> and <a href="http://www.fdt.powerflasher.com/" target="_blank">FDT</a>. The static charts were produced with <a href="http://www.tableausoftware.com/" target="_blank">Tableau.</a>
+				</p>
+				
+
+				<div class="footer">
+					<!-- twitter -->
+					<div>
+					<a href="http://twitter.com/share" class="twitter-share-button" data-count="vertical" data-via="moritz_stefaner">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+					</div>
+					
+					<!-- facebook -->
+					<div>
+					<iframe src="http://www.facebook.com/plugins/like.php?href=http%3A%2F%2Fnotabilia.net&amp;layout=standard&amp;show_faces=true&amp;width=240&amp;action=like&amp;colorscheme=light&amp;height=80" scrolling="no" frameborder="0" style="border:none; overflow:hidden; width:240px; height:80px;" allowTransparency="true"></iframe>
+					</div>
+					
+					<!-- CC -->
+					<div> CC LICENSE GOES HERE</div>
+				</div>
 				<hr />
+
 				<h2>Todo</h2>
 				<ul>
 			<li style="text-decoration : line-through;">Truncate Tableau plots at x=35</li>
 			<li style="text-decoration : line-through;">Add (and graphically adjust) the 2 temporal distribution plots (already included in the dropbox)</li>
 			<li style="text-decoration : line-through;">Add a paragraph to discuss the 3 AfD patterns; decide if we want to use thumbnails or text links</li>
-                        <li>mo: Move 3 AfD patterns on top</li>
-			<li>Dario: Add copyright/license information (and maybe a how-to-cite-this blurb?)</li>
-                        <li>mo: Add Facebook/Twitter buttons</li>
-                        <li>mo: Add Google Analytics</li>
-                        <li>Dario: Fix votes/day -> votes/sec in right hist</li>
-                        <li>mo: Fix links in flash objects (don't work with FF on Mac/Linux)</li>
-			<li>mo: run scripts with new data</li>
-			<li>Giovanni: Create Google docs for downloadable dataset</li>
-
 			<li style="text-decoration : line-through;">Change obsolete references to "deletionism", "keepology" in the source as needed</li>
 			<li style="text-decoration : line-through;">Add WP anniversary button?</li>
+            <li style="text-decoration : line-through;">mo: Move 3 AfD patterns on top</li>
+			<li>Dario: Add copyright/license information (and maybe a how-to-cite-this blurb?)</li>
+            <li style="text-decoration : line-through;">mo: Add Facebook/Twitter buttons</li>
+             <li style="text-decoration : line-through;">mo: Add Google Analytics</li>
+            <li>Dario: Fix votes/day -> votes/sec in right hist</li>
+            <li>mo: Fix links in flash objects (don't work with FF on Mac/Linux)</li>
+			 <li style="text-decoration : line-through;">mo: run scripts with new data</li>
+			<li>Giovanni: Create Google docs for downloadable dataset</li>
 			<li>mo: Vote distribution plot: delete -> only deletes, keep -> only keeps</li>
+			
 			<li>maybe: Tree comparison</li>
 			<li>maybe: optimize flash movies: data loading</li>
 
@@ -144,13 +183,13 @@
 
 			<!-- hidden divs -->
 			<div class="apple_overlay" id="afd_overturn">
-				<img src="img/AfDa_full.png" />
+				<img src="img/shots/transreal_768.gif" />
 			</div>
 			<div class="apple_overlay" id="afd_spiral">
-				<img src="img/AfDb_full.png" />
+				<img src="img/shots/spaghetti_768.gif"/>
 			</div>
 			<div class="apple_overlay" id="afd_straight">
-				<img src="img/AfDd_full.png" />
+				<img src="img/shots/ginger_768.gif"/>
 			</div>
 	</body>
 </html>
