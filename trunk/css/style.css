@@ -122,7 +122,7 @@ html, body {
 	height:100%;
 	padding:0;
 	margin:0;
-	background:#FFF;
+	background-color:#FFF;
 	font-size:13px;
 	font-family: Georgia, Arial, Helvetica, sans-serif;
 }
@@ -132,7 +132,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {text-shadow: 1px 1px 0px #FFF;}
 
 p.citation {
-	border: 1px solid #FFF;
+	background-color:#FFF;
 	padding: 10px;
 	font-size: 95%;
 }
