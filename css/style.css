@@ -130,9 +130,22 @@ div.colborder {
 	float:left;
 }
 
-.container table.patternThumbs td{
+.container table.patternThumbs th{
+	text-align: center;
+	font-size:1.4em;
+	font-weight:normal;
+}
+
+.container table.patternThumbs td.thumb{
 	text-align: center;
 }
+
+.container table.patternThumbs td.caption{
+	vertical-align: top;
+	text-align: left;
+	font-size: .85em;
+}
+
 
 img#wiki10{
 	opacity: .66;
