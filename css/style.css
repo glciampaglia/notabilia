@@ -150,13 +150,7 @@ img#wiki10{
 	position: absolute;
 	top:93%;
 	right: 2em;
-	opacity: .2;
 }
-
-img#wiki10:hover{
-	opacity: .4;
-}
-
 
 /* Body margin for a sensible default look. */
 html, body {
@@ -177,6 +171,8 @@ p.citation {
 	background-color:#FFF;
 	padding: 10px;
 	font-size: 95%;
+	-moz-border-radius: 25px 10px / 10px 25px;
+	border-radius: 25px 10px / 10px 25px;
 }
 
 
