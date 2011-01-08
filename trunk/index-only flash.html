@@ -1,0 +1,50 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>Notabilia ~ Visualizing Deletion Discussions on Wikipedia</title>
+
+		<!-- Framework CSS -->
+	    <link rel="stylesheet" href="css/blueprint/screen.css" type="text/css" media="screen, projection">
+	    <link rel="stylesheet" href="css/blueprint/print.css" type="text/css" media="print">
+	    <!--[if lt IE 8]><link rel="stylesheet" href="../blueprint/ie.css" type="text/css" media="screen, projection"><![endif]-->	
+		<link rel="stylesheet" href="css/style.css" type="text/css" media="screen" title="no title" charset="utf-8" />
+
+		<!-- jQuery -->
+		<script type="text/javascript" src="http://cdn.jquerytools.org/1.2.5/full/jquery.tools.min.js"></script>
+		<script type="text/javascript" src="lib/jquery/tooltip.js"></script>
+
+		<!-- SWF objects -->
+		<script type="text/javascript" src="lib/swfobject/swfobject.js"></script>		
+		<script type="text/javascript">
+			var URL="deletionism.swf";
+			var flashID = "flash";			
+			var width = "100%";
+			var height = "90%";
+			var flashVersion = "10.0.0";
+			var expressInstallURL = "lib/swfobject/expressInstall.swf";			
+			var flashvars = {
+			};
+			var params = {
+			    wmode : "opaque"
+			};
+			var attributes = {				
+			};
+			swfobject.embedSWF(URL, flashID, width, height, flashVersion, expressInstallURL, flashvars, params, attributes);
+			swfobject.embedSWF(URL, "keepology", width, height, flashVersion, expressInstallURL, {showOnly:"K"}, params, attributes);
+		</script>
+		<script src="lib/swfaddress/swfaddress.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body style="margin:0; padding:0;">
+		<div id="flash" style="width:100%; height:90%;">
+			<a href="http://www.adobe.com/go/getflashplayer">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+		</div>
+		<div id="keepology" style="width:100%; height:90%;">
+			<a href="http://www.adobe.com/go/getflashplayer">
+				<img src="http://www.adobe.com/images/shared/download_buttons/get_flash_player.gif" alt="Get Adobe Flash player" />
+			</a>
+		</div>	
+	</body>
+</html>
