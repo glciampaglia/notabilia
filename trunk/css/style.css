@@ -150,8 +150,13 @@ img#wiki10{
 	position: absolute;
 	top:93%;
 	right: 2em;
-	opacity: .8;
+	opacity: .2;
 }
+
+img#wiki10:hover{
+	opacity: .4;
+}
+
 
 /* Body margin for a sensible default look. */
 html, body {
