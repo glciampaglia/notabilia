@@ -135,10 +135,10 @@ div.colborder {
 }
 
 img#wiki10{
-	position: relative;
-	float: left;
-	left: 2em;
 	opacity: .66;
+	position: absolute;
+	top:93%;
+	left: 10px;
 }
 
 img#wiki10:hover{
@@ -158,7 +158,7 @@ html, body {
 
 /* General styling */
 
-h1, h2, h3, h4, h5, h6 {text-shadow: 1px 1px 0px #FFF;}
+h1, h2, h3, h4, h5, h6 {text-shadow: 1px 1px 0px #FFF; float:none;}
 
 p.citation {
 	background-color:#FFF;
