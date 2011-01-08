@@ -131,7 +131,7 @@ div.colborder {
 }
 
 .container table.patternThumbs th{
-	text-align: center;
+	text-align: left;
 	font-size:1.4em;
 	font-weight:normal;
 }
