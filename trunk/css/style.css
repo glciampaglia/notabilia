@@ -146,16 +146,11 @@ div.colborder {
 	font-size: .85em;
 }
 
-
 img#wiki10{
-	opacity: .66;
 	position: absolute;
 	top:93%;
-	left: 10px;
-}
-
-img#wiki10:hover{
-	opacity: .88;
+	right: 2em;
+	opacity: .8;
 }
 
 /* Body margin for a sensible default look. */
