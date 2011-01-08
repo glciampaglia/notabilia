@@ -108,9 +108,7 @@ div.colborder {
 	text-align:center;
 	width:100%;
 	padding: 2em 0px 1em 0px ;
-	float:none;
 }
-
 
 .container p, .container li, .container table.patternThumbs{
 	text-align:left;
@@ -134,14 +132,15 @@ div.colborder {
 	text-align: center;
 }
 
-
-
-#wiki10{
-	opacity: .33;
+img#wiki10{
+	position: absolute;
+	float: left;
+	left: 2em;
+	opacity: .66;
 }
 
-#wiki10:hover{
-	opacity: .66;
+img#wiki10:hover{
+	opacity: .88;
 }
 
 /* Body margin for a sensible default look. */
@@ -157,7 +156,7 @@ html, body {
 
 /* General styling */
 
-h1, h2, h3, h4, h5, h6 {text-shadow: 1px 1px 0px #FFF; clear:both;}
+h1, h2, h3, h4, h5, h6 {text-shadow: 1px 1px 0px #FFF;}
 
 p.citation {
 	background-color:#FFF;
@@ -165,11 +164,6 @@ p.citation {
 	font-size: 95%;
 }
 
-img#wiki10{
-	position: absolute;
-	float: left;
-	left: 2em;
-}
 
 /* Default link styling */
 
