@@ -173,6 +173,13 @@ p.citation {
 	font-size: 95%;
 }
 
+p.abstract {
+	width:520px;
+	background-color:#FFF;
+	padding: 10px;
+	font-size: 97%;
+}
+
 
 /* Default link styling */
 
