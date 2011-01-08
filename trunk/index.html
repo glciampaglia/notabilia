@@ -45,7 +45,7 @@
 			<a class="img" href="http://ten.wikipedia.org" title="Happy 10th birthday, Wikipedia!"><img id="wiki10" src="img/wikipedia10.png" alt="Wikipedia 10th anniversary logo" /></a>
 			<div class="titlewrap">
 				<h1 style="margin:0;">Notabilia</h1>
-				<h2 style="font-size:1.4em; margin:.5em;">Visualizing Deletion Discussions on Wikipedia</h2>	
+				<h2 style="font-size:1.5em; margin:.5em;">Visualizing Deletion Discussions on Wikipedia</h2>	
 				<h3 style="font-size:1.1em; color:#888;font-weight:normal">Moritz Stefaner &bull; Dario Taraborelli &bull; Giovanni Luca Ciampaglia</h3>
 			</div>
 			<p>
@@ -57,31 +57,35 @@
 				<!--An ideal discussion in which there is total agreement among participants would approximately look like a <a href="http://en.wikipedia.org/wiki/Logarithmic_spiral">logarithmic spiral</a>, as in <a class="trigger img" rel="#afd_spiral" title="spiral-like AfD sample">this case</a>.
 				-->
 			</p>
-			<h3>Typical patterns</h3>
+			<h2 style="margin-bottom: .5em">Typical patterns</h2>
 			<table class="patternThumbs" cellpadding="10">
 				<tr>
-					<td>
+					<th>Controversial</th>
+					<th>Unanimous</th>
+					<th>Overturned</th>
+				</tr>
+				<tr>
+					<td class="thumb">
 						<a class="trigger img" rel="#afd_straight" title="straight AfD sample">
 						<img src="img/thumb_ginger.gif" alt="straight AfD sample" width="159" height="160" />
-						<br />
-						Controversial
 						</a>
 					</td>
-					<td>
+					<td class="thumb">
 						<a class="trigger img" rel="#afd_spiral" title="spiral-like AfD sample">
 						<img src="img/thumb_spaghetti.gif" alt="spiral-like AfD sample" width="160" height="160" />
-						<br />
-						Unanimous
 						</a>
 					</td>
-					<td>
+					<td class="thumb">
 						<a class="trigger img" rel="#afd_overturn" title="s-shaped AfD sample">
 						<img class="last" src="img/thumb_transreal.gif" alt="s-shaped AfD sample" width="160" height="160" />
-						<br />
-						Overturned
 						</a>
 					</td>
 				</tr>	
+				<tr>
+					<td class="caption">Particularly controversial discussions where Deletes and Keeps occur frequently tend to follow a straight line as opposing opinions balance each other and consensus is hard to reach.</td>
+					<td class="caption">Unanimous discussions tend to get curly. An ideal discussion in which there is a total agreement among participants will approximately look like a <a href="http://en.wikipedia.org/wiki/Logarithmic_spiral">logarithmic spiral</a>.</td>	
+					<td class="caption">Discussions follow an s-shaped trajectory when a series of Deletes is followed by a consistent series of Keeps or vice versa. This pattern may indicate that participants with similar opinions flock together and join the discussion at the same time.</td>
+				</tr>
 			</table>
 			<p>
 				The following visualization represents the 100 longest discussions that did <em>not</em> result in the deletion of the article (i.e the article was kept, merged or redirected):
