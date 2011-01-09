@@ -121,8 +121,9 @@ div.colborder {
 .footer{
 	width:520px;
 	margin: 5em auto !important;
-	padding: 1em 0;
-	border-top:1px solid #CCC;
+	padding: 0 .5em;
+	background-color: #DDD;
+	font-size: 90%;
 }
 
 .footer div{
