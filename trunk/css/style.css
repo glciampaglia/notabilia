@@ -194,6 +194,11 @@ a:hover {
 	background-color: #DDD;
 }
 
+a.inv {
+	color: inherit;
+	background-color: transparent;	
+}
+
 a.img {
 	background-color: transparent;	
 }
