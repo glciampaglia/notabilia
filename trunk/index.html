@@ -23,15 +23,14 @@
 			var height = "90%";
 			var flashVersion = "10.0.0";
 			var expressInstallURL = "lib/swfobject/expressInstall.swf";			
-			var flashvars = {
-			};
+
 			var params = {
 			    wmode : "opaque",
 			    allowScriptAccess:"always"
 			};
 			var attributes = {				
 			};
-			swfobject.embedSWF(URL, flashID, width, height, flashVersion, expressInstallURL, flashvars, params, attributes);
+			swfobject.embedSWF(URL, flashID, width, height, flashVersion, expressInstallURL, {showOnly:"D"}, params, attributes);
 			swfobject.embedSWF(URL, "kept", width, height, flashVersion, expressInstallURL, {showOnly:"K"}, params, attributes);
 		</script>
 		<script src="lib/swfaddress/swfaddress.js" type="text/javascript" charset="utf-8"></script>
