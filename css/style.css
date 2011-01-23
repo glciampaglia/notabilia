@@ -118,6 +118,12 @@ div.colborder {
 	margin: 1.5em auto !important;
 }
 
+ul#changelog li {
+	list-style: none;
+	margin: .5em auto !important;
+	font-size: 90%;
+}
+
 .footer{
 	width: 520px;
 	margin: 5em auto 0 auto !important;
