@@ -147,6 +147,11 @@ ul#changelog li {
 	text-align: center;
 }
 
+.container table.patternThumbs td.thumb img{
+	border: 2px solid #DDD;
+}
+
+
 .container table.patternThumbs td.caption{
 	vertical-align: top;
 	text-align: left;
