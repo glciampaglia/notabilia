@@ -179,6 +179,8 @@ html, body {
 
 h1, h2, h3, h4, h5, h6 {text-shadow: 1px 1px 0px #FFF; float:none;}
 
+h1 { font-size : 1em !important; }
+
 p.citation {
 	background-color:#FFF;
 	padding: 10px;
